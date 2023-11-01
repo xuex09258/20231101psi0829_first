@@ -15,7 +15,7 @@ import com.example.demo.repository.ProductRepository;
 @RequestMapping("/chart")
 public class ChartController {
 	
-	@Autowired
+	@Autowired //ooooo
 	private ProductRepository productRepository;
 	
 	@GetMapping("/")
